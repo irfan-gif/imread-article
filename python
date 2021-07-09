@@ -1,0 +1,19 @@
+Example #1: Use flag by default
+#OpenCV-Python
+# Display an image with cv2.imread() Method/Function
+
+# import cv2, we already install with pip/conda import cv2 as c
+
+#where c is a reference variable of cv2
+#You can set the reference variable by own just easy to use
+
+
+File_path = r'C:/Users/oral_vision/Desktop/python_code/OpenCV_image.png' #used of 'r' to read the the file in specific path
+
+image = c.imread(File_path)
+#passing the path in cv2.imread() method
+
+# c.imshow() method used for display image cv2.imshow('Displayed-image', image)
+#Passing two parameter in cv2.imshow(), the file name, as you can set by own #and and read file(image)
+
+c.waitKey(0)
